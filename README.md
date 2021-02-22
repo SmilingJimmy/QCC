@@ -48,6 +48,8 @@ Copyright @ _Smiling Jimmy_
 
 - 若使用qcc_webdriver.py，还需要在[chromedriver](https://sites.google.com/a/chromium.org/chromedriver/downloads)下载谷歌浏览器**第三方驱动和插件**，打开此网站需要 **VPN** 
 
+  如谷歌浏览器版本为87.0.4280.88时，应下载对应版本的[chromedriver](chromedriver.exe)
+
 - 可参考百度或者 **CSDN** 上的安装操作
 
 
