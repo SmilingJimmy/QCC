@@ -89,6 +89,14 @@ Copyright @ _Smiling Jimmy_
 
 - 其余注意事项或释义详见 **Python** 文件中的注释行，此处不再赘述
 
+- 两个代码文件（[qcc_bs4.py](qcc_bs4.py)与[qcc_webdriver.py](qcc_webdriver.py)）互相独立，按需要选择**其中一个**运行即可；以下运行方式选择**其中一个**即可
+
+  在Python**编辑器**（种类繁多）中运行代码
+  
+  在Python代码文件所在文件夹的空白处，按住Shift键点右键，打开**Powershell**窗口，键入`python qcc_bs4.py`或者`python qcc_webdriver.py`，回车即可运行
+  
+  右键Windows徽标，点击“运行”，输入**cmd**并回车，键入类似于`python E:\钧资料3\大学资料\事务\实习\碧桂园运营实习\供应商信息整理\qcc_bs4.py`或者`python E:\钧资料3\大学资料\事务\实习\碧桂园运营实习\供应商信息整理\qcc_webdriver.py`（带绝对路径），回车即可运行
+
 - 可参考百度或者 **CSDN** 上的爬虫操作方法
 
 - Copyright @ _Smiling Jimmy_
