@@ -46,7 +46,7 @@ Copyright @ _Smiling Jimmy_
 
 - 下载 **Python** 代码文件到电脑
 
-- 若使用qcc_webdriver.py，还需要在[chromedriver](https://sites.google.com/a/chromium.org/chromedriver/downloads)下载谷歌浏览器**第三方驱动和插件**，打开此网站需要 **VPN** 
+- 若使用qcc_webdriver.py，需要先安装**谷歌浏览器**，并在[chromedriver](https://sites.google.com/a/chromium.org/chromedriver/downloads)下载谷歌浏览器**第三方驱动和插件**，打开此网站需要 **VPN** 
 
   如谷歌浏览器版本为87.0.4280.88时，应下载对应版本的[chromedriver](chromedriver.exe)
 
@@ -55,7 +55,7 @@ Copyright @ _Smiling Jimmy_
 
 ### 使用说明
 
-- 打开Python代码文件，修改文件中所有路径为所在电脑的**绝对路径**，注意使用\\\或者/
+- 打开Python代码文件（[qcc_bs4.py](qcc_bs4.py)与[qcc_webdriver.py](qcc_webdriver.py)），修改文件中所有路径为所在电脑的**绝对路径**，注意使用\\\或者/
 
    要检索公司的 **EXCEL** 文件路径
 
@@ -73,11 +73,11 @@ Copyright @ _Smiling Jimmy_
 
   若不想创建多个 **CSV** 文件，可修改有关输出 **header** 的代码
 
-  qcc_bs4.py： **方法5：整合爬虫方法** 中`df.to_csv(output_path,mode='a+',index=False,header=True,encoding="ANSI")`，header=True改为header=False
+  [qcc_bs4.py](qcc_bs4.py)： **方法5：整合爬虫方法** 中`df.to_csv(output_path,mode='a+',index=False,header=True,encoding="ANSI")`，header=True改为header=False
 
-  qcc_webdriver.py： **方法6：把第一个企业的信息输出到CSV文件** 中注释掉`writer.writeheader()`，即`#writer.writeheader()`
+  [qcc_webdriver.py](qcc_webdriver.py)： **方法6：把第一个企业的信息输出到CSV文件** 中注释掉`writer.writeheader()`，即`#writer.writeheader()`
 
-- qcc_webdriver.py **方法1：打开浏览器** 中，`option.add_argument("--headless")`意味着不打开浏览器（在“ **暗地里** ”运行）
+- [qcc_webdriver.py](qcc_webdriver.py) **方法1：打开浏览器** 中，`option.add_argument("--headless")`意味着不打开浏览器（在“ **暗地里** ”运行）
 
   在不熟悉运行步骤或出现报错时，建议注释掉该行代码，即`#option.add_argument("--headless")`，方便直观观察运行情况
 
