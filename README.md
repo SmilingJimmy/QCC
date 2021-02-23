@@ -1,8 +1,12 @@
 # QCC
 
 ### 介绍
-A  **Python**  based  **Crawler**  programme to get company information from  **QCC**.
-Copyright @ _Smiling Jimmy_ 
+
+- A  **Python**  based  **Crawler**  programme to get company information from  **QCC**. Copyright @ _Smiling Jimmy_ 
+
+- 建议先看完本篇README.md再进行操作
+
+- 操作前不妨先阅读理解一下Python代码，有助于理解运行逻辑与（可能出现的）报错
 
 ### 代码文件
 
